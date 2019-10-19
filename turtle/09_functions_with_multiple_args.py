@@ -1,0 +1,20 @@
+import turtle
+bob = turtle.Turtle()
+def square(length, angle):
+    bob.forward(length)
+    bob.left(angle)
+    bob.forward(length)
+    bob.left(angle)
+    bob.forward(length)
+    bob.left(angle)
+    bob.forward(length)
+    bob.left(angle)
+
+bob.color("blue")
+square(100, 90)
+bob.color("green")
+square(150, 90)
+bob.color("red")
+square(200, 90)
+bob.color("yellow")
+square(250, 90)

@@ -43,3 +43,8 @@ print(it)
 print("\n")
 numbers.sort()
 print(numbers)
+
+
+for i in numbers:
+    print(i)
+    print(i+1)
